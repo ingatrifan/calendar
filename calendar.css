@@ -1,0 +1,21 @@
+.btn{
+    height: 40px;
+    font-size: 20px;
+    width: 36px;
+    text-align: center;
+    display: inline-block;
+}
+
+#right{
+    float: right;
+}
+#left{
+    float: left;
+}
+
+h2{
+    text-align: center;
+}
+.card{
+    box-sizing: content-box;
+}

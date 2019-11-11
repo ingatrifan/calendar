@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d6976534fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./calendar.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="container col-sm-9 col-md-7  col-lg-6 col-xl-4 mt-5">
+        <div class="card">
+            <h2>
+                <button class="btn" onclick="left()" id="left"><i class="fas fa-chevron-circle-left"></i></button>
+                <span id="LunaAn"> Anul Luna</span>
+                <button class="btn" onclick="right()" id="right"><i class="fas fa-chevron-circle-right"></i></button>
+            </h2>
+            <div class="card-body">
+                <table class="table table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th class="col">LUN</th>
+                            <th class="col">MAR</th>
+                            <th class="col">MIE</th>
+                            <th class="col">JOI</th>
+                            <th class="col">VIN</th>
+                            <th class="col">SAM</th>
+                            <th class="col">DUM</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./calendar.js"></script>
+</html>
